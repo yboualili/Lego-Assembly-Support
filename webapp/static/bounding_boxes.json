@@ -1,0 +1,128 @@
+{
+    "-1": {
+        "parts": [
+            "Beam, 13-module, gray",
+            "Connector peg with axle, 2-module, beige"
+        ]
+    },
+    "0": {
+        "parts": [
+            "stage_0",
+            "Connector peg with axle, 2-module, beige"
+        ]
+    },
+    "1": {
+        "parts": [
+            "stage_1",
+            "Connector peg with friction, 2-module, black"
+        ]
+    },
+    "2": {
+        "parts": [
+            "stage_2",
+            "Connector peg with friction, 2-module, black"
+        ]
+    },
+    "3": {
+        "parts": [
+            "stage_3",
+            "Axle, 2-module, red"
+        ]
+    },
+    "4": {
+        "parts": [
+            "stage_4",
+            "Axle, 2-module, red"
+        ]
+    },
+    "5": {
+        "parts": [
+            "stage_5",
+            "Large Motor"
+        ]
+    },
+    "6": {
+        "parts": [
+            "Cross block, 3x2-module, gray",
+            "Connector peg with friction, 2-module, black"
+        ]
+    },
+    "7": {
+        "parts": [
+            "stage_7",
+            "Beam, 15-module, white"
+        ]
+    },
+    "8": {
+        "parts": [
+            "stage_8",
+            "Connector peg with bushing, 3-module, red"
+        ]
+    },
+    "9": {
+        "parts": [
+            "stage_9",
+            "Connector peg with bushing, 3-module, red"
+        ]
+    },
+    "10": {
+        "parts": [
+            "stage_6",
+            "stage_10"
+        ]
+    },
+    "11": {
+        "parts": [
+            "Axle, 6-module, black",
+            "Double bevel gear, 12-tooth, black"
+        ]
+    },
+    "12": {
+        "parts": [
+            "stage_11",
+            "stage_12"
+        ]
+    },
+    "13": {
+        "parts": [
+            "Low profile tire, 56x26 mm, black",
+            "Hub 43 2x26 mm, gray"
+        ]
+    },
+    "14": {
+        "parts": [
+            "stage_14",
+            "Axle, 8-module, black"
+        ]
+    },
+    "15": {
+        "parts": [
+            "stage_15",
+            "Bushing, 1-module, gray"
+        ]
+    },
+    "16": {
+        "parts": [
+            "stage_16",
+            "Gear, 24-tooth, dark gray"
+        ]
+    },
+    "17": {
+        "parts": [
+            "stage_13",
+            "stage_17"
+        ]
+    },
+    "18": {
+        "parts": [
+            "stage_18",
+            "Pointer, 3-module, white"
+        ]
+    },
+    "19": {
+        "parts": [
+            "stage_19",
+            "Lan Cable"
+        ]
+    }
+}

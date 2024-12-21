@@ -1,0 +1,50 @@
+train: "dataset/train/images"
+val: "dataset/val/images"
+
+#Classes
+nc: 38
+
+#classes names
+#replace all class names list with your classes names
+names: ['Axle, 2-module, red',
+'Axle, 6-module, black',
+'Axle, 8-module, black',
+'Beam, 13-module, gray',
+'Beam, 15-module, white',
+'Bushing, 1-module, gray',
+'Connector peg with axle, 2-module, beige',
+'Connector peg with bushing, 3-module, red',
+'Connector peg with friction, 2-module, black',
+'Cross block, 3x2-module, gray',
+'Double bevel gear, 12-tooth, black',
+'Gear, 24-tooth, dark gray',
+'Large Motor',
+'Pointer, 3-module, white',
+'stage_0',
+'stage_1',
+'stage_2',
+'stage_3',
+'stage_4',
+'stage_5',
+'stage_6',
+'stage_7',
+'stage_8',
+'stage_9',
+'stage_10',
+'stage_11',
+'stage_12',
+'stage_13',
+'stage_14',
+'stage_15',
+'stage_16',
+'stage_17',
+'stage_18',
+'stage_19',
+'stage_20',
+'Lan Cable',
+'Hub 43 2x26 mm, gray',
+'Low profile tire, 56x26 mm, black']
+
+#yolo task=detect mode=train model=yolov8s.pt data=custom.yaml epochs=300 imgsz=640 device=0 degrees=180 shear=25 flipud=0.5 scale=0.7 mixup=0.3 copy_paste=0.3
+
+#yolo task=detect mode=train model=yolov8s.pt data=custom.yaml epochs=300 imgsz=640 device=0 degrees=30 flipud=0.5 pretrained=True

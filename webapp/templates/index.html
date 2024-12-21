@@ -1,0 +1,36 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" />
+    <!--<link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>-->
+    <!--<link href="../static/css/style.css" rel="stylesheet" />-->
+</head>
+
+<body>
+    <div class="stage-completed-wrapper blend-in">
+        <span class="stage-completed"></span>
+    </div>
+    <div class="detecting-wrapper" id="detecting-wrapper">
+        <span class="detecting">Detecting</span>
+        <div class="loading-wrapper">
+            <div class="loading-point"></div>
+            <div class="loading-point"></div>
+            <div class="loading-point"></div>
+        </div>
+    </div>
+    <div class="main-wrapper">
+        <div>
+            <img src="{{ url_for('video_stream') }}" width="100%" id="video-stream" />
+        </div>
+        <div class="instruction-wrapper inactive">
+            <img id="instruction-image" src="../static/instruction_images/0.png" />
+        </div>
+    </div>
+    <div class="stage-index-wrapper">
+        <div class="stage-indexes"></div>
+    </div>
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+    <!--<script src="../static/js/main.js"></script>-->
+</body>
+
+</html>
